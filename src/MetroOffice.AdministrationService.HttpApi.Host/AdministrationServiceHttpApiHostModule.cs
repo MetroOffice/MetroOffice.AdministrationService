@@ -88,7 +88,7 @@ namespace MetroOffice.AdministrationService.HttpApi.Host
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Identity Service API");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Administration Service API");
             });
             app.UseAbpSerilogEnrichers();
             app.UseAuditing();
